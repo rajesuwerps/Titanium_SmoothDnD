@@ -1,0 +1,11 @@
+<Alloy>
+	<Window fullscreen="true">
+		<Label id="target1" class="target" />
+		<Label id="target2" class="target" />
+		<Label id="source1" class="source" 
+			onTouchstart="touchHandler" onTouchmove="touchHandler" onTouchend="touchHandler" onTouchcancel="touchHandler" />
+		<Label id="source2" class="source" 
+			onTouchstart="touchHandler" onTouchmove="touchHandler" onTouchend="touchHandler" onTouchcancel="touchHandler" />
+		<Label class="info" />	
+	</Window>
+</Alloy>

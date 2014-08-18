@@ -1,0 +1,36 @@
+"Window": {
+	backgroundColor:"white"
+},
+".target":{
+	borderColor: "#ccc",
+	width: 100,
+	height: 75,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER
+},
+".source":{
+	backgroundColor: "pink",
+	width: 100,
+	height: 75,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER
+},
+"#target1":{
+	text: "Target 1",
+	top:20, left:20
+},
+"#target2":{
+	text: "Target 2",
+	top:120, left:20
+},
+"#source1":{
+	text: "Source 1",
+	top:120, left: 150
+},
+"#source2":{
+	text: "Source 2",
+	top:20, left: 150
+}
+,
+".info":{
+	left: 20, right: 20,
+	text: "Drag and Drop sample, \nwith snap to drop target.\n\nDrag Source1 to Target1 and so on."
+}
